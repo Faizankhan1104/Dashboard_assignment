@@ -1,0 +1,27 @@
+/* DonutChart.css */
+
+/* Center the DonutChart within a container */
+.donut-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Style the SVG element */
+  .donut-chart-svg {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+  }
+  
+  /* Style the arc paths */
+  .arc path {
+    cursor: pointer;
+    transition: fill 0.2s; /* Add a smooth color transition on hover */
+  }
+  
+  /* Define hover style for the arc paths */
+  .arc path:hover {
+    fill: #fc7cbc; /* Change the fill color on hover */
+  }
+  
